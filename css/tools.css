@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Montserrat-Thin', sans-serif;;
+	src: url(Fonts/Montserrat-Thin.ttf);
+}
+
+html, body, #home, #tools, #about, #author {
+  background: hsla(260,40%,5%,1);
+}
+
+.navigation-bar
+{ 
+	z-index: 1;
+    position:relative;
+    width: 42em;
+    height: 3em;
+    margin-left: 40em;
+	top: 20%;
+}
+
+
+.navigation-ul
+{
+	font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.navigation-li
+{
+    margin-left: 55px;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+.text-color{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	color: #57585c;
+	color: var(--color-text);
+	background-color: #000;
+	overflow: hidden;
+}
+
+.content_title {
+	word-spacing: 30px;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 55%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	margin: -5.5vw 0 0 0;
+	z-index: 100;
+	font-size: 4vw;
+	color: var(--color-title);
+	line-height: 1;
+}
+
+.about {
+	opacity: 0.8;
+	background-color: #110d1a;
+	position: relative;
+	z-index: 1;
+	width: 40em;
+	height: 50em;
+	margin-top: 50px;
+	margin-left: 40em;
+	overflow: visible;
+}
+
+.about-title {
+	color: #fff;
+	font-size: 25px;
+	margin-left: 8em;
+}
+
